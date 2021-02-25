@@ -1,0 +1,73 @@
+
+/* header.js */
+.Header header{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 59px;
+}
+
+/* Logo.js */
+.Header-logo{
+    width: 72px;
+}
+
+.instagram,.twitter,.youtube{
+    width: 45px;
+}
+
+.youtube{
+    margin-top: 5px;
+}
+
+/* Nav.js */
+.Navigation ul{
+    display: flex;
+}
+.Navigation li{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+
+/* タブレット  */
+@media screen and (max-width: 768px) {
+    .Header header{
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 59px;
+    }
+}
+
+/* スマホ */
+@media screen and (max-width: 479px) {
+    .Header header{
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+
+    /* Logo.js */
+    .Header-logo{
+        width: 45px;
+    }
+
+    .instagram,.twitter,.youtube{
+        width: 25px;
+    }
+
+    .youtube{
+        margin-top: 1px;
+        height: 25px;
+    }
+
+    .Navigation li{
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,448 @@
+
+.Main{
+    margin-top: 50px;
+}
+
+/* Main.js */
+.mainViju{
+    width: 1300px;
+    height: 550px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+
+/* Top.js */
+.Main h1{
+    font-size: 4rem;
+    font-family: bilo,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+/* Works.js */
+.Pictures{
+    margin-bottom: 160px;
+}
+.List{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.List img{
+    margin: 0 25px 30px 0;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+}
+
+.wide{
+    width: 835px;
+    height: 405px;
+}
+
+.mini,.me{
+    width: 405px;
+    height: 405px;
+}
+
+.me{
+    font-size: 1.5rem;
+    width: 350px;
+}
+
+.profile{
+    padding: 25px 20px 20px 30px;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0 0 7px rgba(44, 44, 44, 0.3);
+}
+.profile h2{
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.profile p{
+    font-size: 1rem;
+    line-height: 35px;
+}
+
+
+/* Skill.js */
+.graph {
+    position: relative; /* IE is dumb */
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    padding: 2px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: bilo,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.graph h3{
+    margin-bottom: 50px;
+}
+
+.graph .innerBar{
+    width: 80%;
+    height: 100px;
+    /* background-color: tomato; */
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    text-align: left;
+    padding-top: 10px;
+}
+.graph .htmlbar {
+    width: 90%;
+    display: block;
+    position: relative;
+    background: #d18d56;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    border-radius: 60px;
+    text-align: center;
+    color: #f0ffff;
+    height: 2em;
+    line-height: 2em;
+}
+
+.graph .jsbar {
+    width: 50%;
+    display: block;
+    position: relative;
+    background: #ddd05f;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    border-radius: 60px;
+    text-align: center;
+    color: #f0ffff;
+    height: 2em;
+    line-height: 2em;
+}
+
+.graph .reactbar {
+    width: 40%;
+    display: block;
+    position: relative;
+    background: #60d8d8;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    border-radius: 60px;
+    text-align: center;
+    color: #f0ffff;
+    height: 2em;
+    line-height: 2em;
+}
+
+.graph .phpbar {
+    width: 30%;
+    display: block;
+    position: relative;
+    background: #9d5fcf;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    border-radius: 60px;
+    text-align: center;
+    color: #f0ffff;
+    height: 2em;
+    line-height: 2em;
+}
+.graph .bar span { position: absolute; left: 1em; }
+
+
+
+/* タブレット  */
+@media screen and (max-width: 768px) {
+    .mainViju{
+        width: 95%;
+        height: 438px;
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+
+    .Main h1{
+        font-size: 2.5rem;
+        font-family: bilo,sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .Pictures{
+        width: 100%;
+    }
+
+    .List{
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .List img{
+        margin: 0 0 30px 0;
+    }
+    
+    .wide{
+        width: 100%;
+        margin-bottom: 30px;
+    
+    }
+    
+    .mini{
+        width: 370px;
+        height: 370px;
+    }
+
+    .me{
+        font-size: 1.5rem;
+        width: 340px;
+        height: 370px;
+    }
+    
+    .profile{
+        padding: 20px 20px 20px 25px;   
+        background-color: rgb(243, 243, 243);
+    }
+    .profile h2{
+        font-size: 1.5rem;
+        margin-bottom: 25px;
+    }
+    .profile p{
+        font-size: 0.9rem;
+        line-height: 35px;
+    }
+
+    /* Skill.js */
+    .graph {
+        position: relative; /* IE is dumb */
+        width: 80%;
+        margin: 0 auto;
+        background-color: #ffffff;
+        box-shadow: 0 0 7px rgba(0, 0, 0, .3);
+        border-radius: 5px;
+        padding: 2px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 50px;
+    }
+
+    .graph h3{
+        margin-bottom: 30px;
+    }
+
+    .graph .innerBar{
+        width: 80%;
+        height: 100px;
+        /* background-color: tomato; */
+        margin: auto;
+        margin-bottom: 50px;
+        font-size: 2rem;
+        text-align: left;
+        padding-top: 10px;
+    }
+    .graph .htmlbar {
+        width: 90%;
+        display: block;
+        position: relative;
+        background: #d18d56;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+        border-radius: 60px;
+        text-align: center;
+        color: #f0ffff;
+        height: 2em;
+        line-height: 2em;
+    }
+
+    .graph .jsbar {
+        width: 50%;
+        display: block;
+        position: relative;
+        background: #ddd05f;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+        border-radius: 60px;
+        text-align: center;
+        color: #f0ffff;
+        height: 2em;
+        line-height: 2em;
+    }
+
+    .graph .reactbar {
+        width: 40%;
+        display: block;
+        position: relative;
+        background: #60d8d8;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+        border-radius: 60px;
+        text-align: center;
+        color: #f0ffff;
+        height: 2em;
+        line-height: 2em;
+    }
+
+    .graph .phpbar {
+        width: 30%;
+        display: block;
+        position: relative;
+        background: #9d5fcf;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+        border-radius: 60px;
+        text-align: center;
+        color: #f0ffff;
+        height: 2em;
+        line-height: 2em;
+    }
+    .graph .bar span { position: absolute; left: 1em; }
+}
+
+/* スマホ */
+@media screen and (max-width: 479px) {
+    .mainViju{
+        width: 95%;
+        height: 355px;
+        padding-top: 40px;
+        margin: 0 auto;
+    }
+
+    .Main h1{
+        font-size: 1.9rem;
+        font-family: bilo,sans-serif;
+        font-weight: 200;
+        font-style: normal;
+    }
+
+    .Pictures{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .List{
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .List img{
+        margin: 0 0 15px 0;
+    }
+    
+    .wide{
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+    
+    }
+    
+    .mini{
+        width: 180px;
+        height: 180px;
+    }  
+    
+    .me{
+        width: 163px;
+        height: 180px;
+    }
+    .profile{
+        padding: 5px 0 0 10px;   
+        background-color: rgb(243, 243, 243);
+    }
+    .profile h2{
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+    .profile p{
+        font-size: 0.45rem;
+        line-height: 15px;
+    }
+
+        /* Skill.js */
+.graph {
+    position: relative; /* IE is dumb */
+    width: 95%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .3);
+    border-radius: 5px;
+    padding: 2px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.graph h3{
+    margin-bottom: 10px;
+    /* font-size: 2rem; */
+}
+
+.graph .innerBar{
+    width: 90%;
+    height: 70px;
+    /* background-color: tomato; */
+    margin: auto;
+    margin-bottom: 0px;
+    font-size: 1rem;
+    text-align: left;
+    padding-top: 10px;
+}
+.graph .htmlbar {
+    width: 90%;
+    display: block;
+    position: relative;
+    background: #d18d56;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    border-radius: 60px;
+    text-align: center;
+    color: #f0ffff;
+    height: 2em;
+    line-height: 2em;
+}
+
+.graph .jsbar {
+    width: 50%;
+    display: block;
+    position: relative;
+    background: #ddd05f;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    border-radius: 60px;
+    text-align: center;
+    color: #f0ffff;
+    height: 2em;
+    line-height: 2em;
+}
+
+.graph .reactbar {
+    width: 40%;
+    display: block;
+    position: relative;
+    background: #60d8d8;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    border-radius: 60px;
+    text-align: center;
+    color: #f0ffff;
+    height: 2em;
+    line-height: 2em;
+}
+
+.graph .phpbar {
+    width: 30%;
+    display: block;
+    position: relative;
+    background: #9d5fcf;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .3);
+    border-radius: 60px;
+    text-align: center;
+    color: #f0ffff;
+    height: 2em;
+    line-height: 2em;
+}
+.graph .bar span { position: absolute; left: 1em; }
+}

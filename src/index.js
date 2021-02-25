@@ -1,12 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './css/normalize.css';
+import './css/style.css';
+import './css/sanitize.css';
+import './firebase/firebase';
+
+// Components CSS
+import './css/header.css';
+import './css/main.css';
+import './css/footer.css';
+
+// Components
+import Header from './components/header/Header';
+import Main from './components/main/Main';
+import Footer from './components/footer/Footer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Main />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
